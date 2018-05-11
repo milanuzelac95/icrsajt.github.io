@@ -1,0 +1,39 @@
+body{
+    background-image: url("img/pozadina3.png");
+    background-repeat: repeat-y;
+    opacity: 1;
+ }
+ hr{
+     background-color: red;
+ }
+.bg-secondary{
+   opacity:0.9;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    display: inline-block;
+    list-style-type:none;
+}
+.navbar-nav li a:hover{
+    background-color: rgb(20, 24, 20);
+    text-decoration: none;
+    border-radius:15px;
+    transition-duration: 0.3s;
+}
+.card-img-top:hover{
+    opacity:0.6;
+    transition-duration: 0.5s;
+}
+.card-block{
+    border:3px solid red;
+}
+.card:hover{
+    background-color: rgb(245, 77, 77);
+    transition-duration: 10ms;
+}
+.list-inline{
+    text-align: center;
+}
+
